@@ -1,5 +1,3 @@
-
-
 .App {
   background: rgba(0, 0, 0, 0.3);
   min-height: 100vh;
@@ -23,7 +21,7 @@ header {
   margin: 0 10px 0 10px;
 }
 
-.nav-buttons  {
+.nav-buttons {
   padding: 0 10px 0 10px;
 }
 
@@ -33,10 +31,16 @@ header {
 
 span.MuiBottomNavigationAction-label.Mui-selected.css-imwso6-MuiBottomNavigationAction-label {
   color: #ff8000;
+  text-decoration: underline;
 }
 
 button.MuiButtonBase-root.MuiBottomNavigationAction-root.css-1dvum8u-MuiButtonBase-root-MuiBottomNavigationAction-root {
   color: #e2a233;
+}
+
+button.MuiButtonBase-root.MuiBottomNavigationAction-root.css-1dvum8u-MuiButtonBase-root-MuiBottomNavigationAction-root:hover {
+  color: #ff8000;
+  text-decoration: underline;
 }
 
 .items {
@@ -54,6 +58,10 @@ button.MuiButtonBase-root.MuiBottomNavigationAction-root.css-1dvum8u-MuiButtonBa
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 0px 3px 40px 5px rgba(255, 255, 255, 0.5);
+}
+
+.item:hover {
+  transform: scale(1.07);
 }
 
 .item-icon-legendary {
