@@ -2,7 +2,20 @@ import React from "react";
 import Box from "@mui/material/Box";
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
+import { styled } from "@mui/styles";
 import logo from "../assets/logo.svg";
+
+const MyButton = styled(BottomNavigationAction)({
+  color: "#e2a233",
+  "&:hover": {
+    color: "#ff8000",
+    textDecoration: "underline",
+  },
+  "&.Mui-selected": {
+    color: "#ff8000",
+    textDecoration: "underline",
+  },
+});
 
 function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
@@ -20,10 +33,10 @@ function SimpleBottomNavigation() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
           value={value}
         >
-          <BottomNavigationAction label="Items" />
-          <BottomNavigationAction label="Mounts" />
-          <BottomNavigationAction label="Talents" />
-          <BottomNavigationAction label="Guides" />
+          <MyButton label="Items" />
+          <MyButton label="Mounts" />
+          <MyButton label="Talents" />
+          <MyButton label="Guides" />
         </BottomNavigation>
       </Box>
     </header>

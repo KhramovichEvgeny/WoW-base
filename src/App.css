@@ -21,24 +21,6 @@ header {
   margin: 0 10px 0 10px;
 }
 
-.MuiBottomNavigationAction-root {
-  color: #e2a233;
-}
-
-.MuiBottomNavigationAction-label {
-  color: #e2a233;
-}
-
-.MuiBottomNavigationAction-label:hover {
-  color: #ff8000;
-  text-decoration: underline;
-}
-
-.Mui-selected {
-  color: #ff8000;
-  text-decoration: underline;
-}
-
 .items {
   width: 100%;
   flex-wrap: wrap;
