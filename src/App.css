@@ -21,20 +21,16 @@ header {
   margin: 0 10px 0 10px;
 }
 
-.nav-buttons {
-  padding: 0 10px 0 10px;
+.MuiBottomNavigationAction-label {
+  color: #e2a233;
 }
 
-span.MuiBottomNavigationAction-label.Mui-selected.css-imwso6-MuiBottomNavigationAction-label {
+.MuiBottomNavigationAction-label:hover {
   color: #ff8000;
   text-decoration: underline;
 }
 
-button.MuiButtonBase-root.MuiBottomNavigationAction-root.css-1dvum8u-MuiButtonBase-root-MuiBottomNavigationAction-root {
-  color: #e2a233;
-}
-
-button.MuiButtonBase-root.MuiBottomNavigationAction-root.css-1dvum8u-MuiButtonBase-root-MuiBottomNavigationAction-root:hover {
+.Mui-selected {
   color: #ff8000;
   text-decoration: underline;
 }

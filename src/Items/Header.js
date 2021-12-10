@@ -32,26 +32,10 @@ function SimpleBottomNavigation() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
           value={value}
         >
-          <BottomNavigationAction
-            className="nav-buttons"
-            label="Items"
-            theme={theme}
-          />
-          <BottomNavigationAction
-            className="nav-buttons"
-            label="Mounts"
-            theme={theme}
-          />
-          <BottomNavigationAction
-            className="nav-buttons"
-            label="Talents"
-            theme={theme}
-          />
-          <BottomNavigationAction
-            className="nav-buttons"
-            label="Guides"
-            theme={theme}
-          />
+          <BottomNavigationAction label="Items" theme={theme} />
+          <BottomNavigationAction label="Mounts" theme={theme} />
+          <BottomNavigationAction label="Talents" theme={theme} />
+          <BottomNavigationAction label="Guides" theme={theme} />
         </BottomNavigation>
       </Box>
     </header>
