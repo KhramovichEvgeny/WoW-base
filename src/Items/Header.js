@@ -2,19 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
-import { createTheme } from "@mui/material/styles";
 import logo from "../assets/logo.svg";
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: "#e2a233",
-    },
-    secondary: {
-      main: "#FFF",
-    },
-  },
-});
 
 function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
@@ -23,7 +11,7 @@ function SimpleBottomNavigation() {
     <header>
       <img alt="Logo" className="logo" src={logo} />
       <div>WoW BASE</div>
-      <Box sx={{ width: 500 }} theme={theme}>
+      <Box sx={{ width: 500 }}>
         <BottomNavigation
           onChange={(event, newValue) => {
             setValue(newValue);
@@ -32,10 +20,10 @@ function SimpleBottomNavigation() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
           value={value}
         >
-          <BottomNavigationAction label="Items" theme={theme} />
-          <BottomNavigationAction label="Mounts" theme={theme} />
-          <BottomNavigationAction label="Talents" theme={theme} />
-          <BottomNavigationAction label="Guides" theme={theme} />
+          <BottomNavigationAction label="Items" />
+          <BottomNavigationAction label="Mounts" />
+          <BottomNavigationAction label="Talents" />
+          <BottomNavigationAction label="Guides" />
         </BottomNavigation>
       </Box>
     </header>
