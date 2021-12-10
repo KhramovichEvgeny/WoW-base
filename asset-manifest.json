@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/WoW-base/static/css/main.daa83071.chunk.css",
-    "main.js": "/WoW-base/static/js/main.ffb892d1.chunk.js",
-    "main.js.map": "/WoW-base/static/js/main.ffb892d1.chunk.js.map",
+    "main.css": "/WoW-base/static/css/main.63b9dc86.chunk.css",
+    "main.js": "/WoW-base/static/js/main.26011613.chunk.js",
+    "main.js.map": "/WoW-base/static/js/main.26011613.chunk.js.map",
     "runtime-main.js": "/WoW-base/static/js/runtime-main.58c20580.js",
     "runtime-main.js.map": "/WoW-base/static/js/runtime-main.58c20580.js.map",
-    "static/js/2.d53fe3f8.chunk.js": "/WoW-base/static/js/2.d53fe3f8.chunk.js",
-    "static/js/2.d53fe3f8.chunk.js.map": "/WoW-base/static/js/2.d53fe3f8.chunk.js.map",
+    "static/js/2.eb6d8901.chunk.js": "/WoW-base/static/js/2.eb6d8901.chunk.js",
+    "static/js/2.eb6d8901.chunk.js.map": "/WoW-base/static/js/2.eb6d8901.chunk.js.map",
     "index.html": "/WoW-base/index.html",
-    "static/css/main.daa83071.chunk.css.map": "/WoW-base/static/css/main.daa83071.chunk.css.map",
-    "static/js/2.d53fe3f8.chunk.js.LICENSE.txt": "/WoW-base/static/js/2.d53fe3f8.chunk.js.LICENSE.txt",
+    "static/css/main.63b9dc86.chunk.css.map": "/WoW-base/static/css/main.63b9dc86.chunk.css.map",
+    "static/js/2.eb6d8901.chunk.js.LICENSE.txt": "/WoW-base/static/js/2.eb6d8901.chunk.js.LICENSE.txt",
     "static/media/index.css": "/WoW-base/static/media/bg-image.ceec00b4.jpg",
     "static/media/logo.c536c2ed.svg": "/WoW-base/static/media/logo.c536c2ed.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.58c20580.js",
-    "static/js/2.d53fe3f8.chunk.js",
-    "static/css/main.daa83071.chunk.css",
-    "static/js/main.ffb892d1.chunk.js"
+    "static/js/2.eb6d8901.chunk.js",
+    "static/css/main.63b9dc86.chunk.css",
+    "static/js/main.26011613.chunk.js"
   ]
 }
