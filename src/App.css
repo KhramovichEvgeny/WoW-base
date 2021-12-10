@@ -25,10 +25,6 @@ header {
   padding: 0 10px 0 10px;
 }
 
-.MuiBottomNavigation-root.css-16lloyr-MuiBottomNavigation-root {
-  background-color: rgba(0, 0, 0, 0);
-}
-
 span.MuiBottomNavigationAction-label.Mui-selected.css-imwso6-MuiBottomNavigationAction-label {
   color: #ff8000;
   text-decoration: underline;
@@ -57,7 +53,7 @@ button.MuiButtonBase-root.MuiBottomNavigationAction-root.css-1dvum8u-MuiButtonBa
   border: 1px solid black;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0px 3px 40px 5px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 3px 40px 5px rgba(255, 255, 255, 0.5);
 }
 
 .item:hover {

@@ -16,15 +16,11 @@ const Items = () => {
   };
 
   const renderItems = () =>
-    items.map(({name, quality, image, item_class, type}) => (
+    items.map(({ name, quality, image, itemClass, type }) => (
       <div className="item">
-        <img
-          className={iconQualities[quality]}
-          alt="Item"
-          src={image}
-        />
+        <img alt="Item" className={iconQualities[quality]} src={image} />
         <p className={nameQualities[quality]}>{name}</p>
-        <p>Class: {item_class}</p>
+        <p>Class: {itemClass}</p>
         <div>Type: {type}</div>
       </div>
     ));

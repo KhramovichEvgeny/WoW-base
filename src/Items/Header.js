@@ -21,35 +21,36 @@ function SimpleBottomNavigation() {
 
   return (
     <header>
-      <img className="logo" alt="Logo" src={logo} />
+      <img alt="Logo" className="logo" src={logo} />
       <div>WoW BASE</div>
-      <Box theme={theme} sx={{ width: 500 }}>
+      <Box sx={{ width: 500 }} theme={theme}>
         <BottomNavigation
-          showLabels
-          value={value}
           onChange={(event, newValue) => {
             setValue(newValue);
           }}
+          showLabels
+          style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+          value={value}
         >
           <BottomNavigationAction
             className="nav-buttons"
-            theme={theme}
             label="Items"
+            theme={theme}
           />
           <BottomNavigationAction
             className="nav-buttons"
-            theme={theme}
             label="Mounts"
+            theme={theme}
           />
           <BottomNavigationAction
             className="nav-buttons"
-            theme={theme}
             label="Talents"
+            theme={theme}
           />
           <BottomNavigationAction
             className="nav-buttons"
-            theme={theme}
             label="Guides"
+            theme={theme}
           />
         </BottomNavigation>
       </Box>
